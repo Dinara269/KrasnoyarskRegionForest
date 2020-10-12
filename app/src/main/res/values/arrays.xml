@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="derevo_array">
+        <item>Сосна</item>
+        <item>Лиственница</item>
+        <item>Берёза</item>
+        <item>Клён</item>
+        <item>Ели и пихты</item>
+        <item>Тополь</item>
+        <item>Розоцветные</item>
+        <item>Липы и вязы</item>
+    </string-array>
+
+    <string-array name="rastenia_array">
+        <item>Одуванчик</item>
+        <item>Пижма</item>
+        <item>Полынь</item>
+        <item>Мать-и-мачеха</item>
+        <item>Ели и пихты</item>
+        <item>Лопух</item>
+        <item>Чертополох</item>
+        <item>Мецгерия вильчатая</item>
+    </string-array>
+
+    <string-array name="park_array">
+        <item>Ергаки</item>
+        <item>Большой Арктический заповедник</item>
+        <item>Путоранский заповедник</item>
+        <item>Саяно-Шушенский заповедник</item>
+        <item>Таймырский заповедник</item>
+        <item>Тунгусский заповедник</item>
+        <item>Столбы</item>
+    </string-array>
+
+    <string-array name="uch_array">
+        <item>Бегичев Никифор Алексеевич</item>
+        <item>Биронт Виталий Семеновичк</item>
+        <item>Блуминау Александр Васильевич</item>
+        <item>Крутовский Всеволод Михайлович</item>
+        <item>Крыжин Иван Степанович</item>
+        <item>Кытманов Александр Игнатьевич</item>
+    </string-array>
+
+</resources>

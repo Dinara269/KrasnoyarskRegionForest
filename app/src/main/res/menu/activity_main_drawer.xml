@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/id_derevo"
+            android:icon="@drawable/ic_derevo"
+            android:title="@string/derevo" />
+        <item
+            android:id="@+id/id_rastenia"
+            android:icon="@drawable/ic_rastenia"
+            android:title="@string/rastenia" />
+        <item
+            android:id="@+id/id_park"
+            android:icon="@drawable/ic_park"
+            android:title="@string/park" />
+        <item
+            android:id="@+id/id_uch"
+            android:icon="@drawable/ic_uch"
+            android:title="@string/uch" />
+    </group>
+</menu>

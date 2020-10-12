@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "Krasnoyarsk_Region_Forest"
