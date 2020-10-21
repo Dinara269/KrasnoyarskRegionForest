@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     private ArrayAdapter<String> adapter;
     private DrawerLayout drawer;
     private Toolbar toolbar;
+    private int category_index;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,6 +57,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             public void onItemClick(AdapterView<?> parent, View view, int position, long id)
             {
                 Intent intent = new Intent(MainActivity.this,Text_Content_Activity.class);
+                intent.putExtra("category",category_index);
+                intent.putExtra("position",position);
                 startActivity(intent);
 
 
@@ -80,6 +83,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             adapter.clear();
             adapter.addAll(array);
             adapter.notifyDataSetChanged();
+            category_index = 0;
         }
         else if
         (id == R.id.id_rastenia)
@@ -89,6 +93,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             adapter.clear();
             adapter.addAll(array);
             adapter.notifyDataSetChanged();
+            category_index = 1;
         }
         else if
         (id == R.id.id_park)
@@ -98,6 +103,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             adapter.clear();
             adapter.addAll(array);
             adapter.notifyDataSetChanged();
+            category_index = 2;
         }
         else if
         (id == R.id.id_uch)
@@ -107,6 +113,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             adapter.clear();
             adapter.addAll(array);
             adapter.notifyDataSetChanged();
+            category_index = 3;
         }
         drawer = findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
