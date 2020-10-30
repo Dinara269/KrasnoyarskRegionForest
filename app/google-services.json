@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "328062510165",
+    "firebase_url": "https://krasnoyarskbasedata.firebaseio.com",
+    "project_id": "krasnoyarskbasedata",
+    "storage_bucket": "krasnoyarskbasedata.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:328062510165:android:7b75072b9cecde43b820dc",
+        "android_client_info": {
+          "package_name": "com.example.krasnoyarsk_region_forest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "328062510165-ssnhr2f68984h3oapph0lpke0j8lha7o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.krasnoyarsk_region_forest",
+            "certificate_hash": "12b0fe8b978081c02a09b98815d42d5623b56dc2"
+          }
+        },
+        {
+          "client_id": "328062510165-fi07impcuk7lh479691mev5492a68upt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTVL-OGFZxdE17WDBT3zP8TrMvDd2Y3cs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "328062510165-fi07impcuk7lh479691mev5492a68upt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

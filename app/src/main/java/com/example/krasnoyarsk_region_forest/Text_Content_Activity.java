@@ -24,10 +24,10 @@ public class Text_Content_Activity extends AppCompatActivity {
         setContentView(R.layout.text_content);
         text_content = findViewById(R.id.text_main_content);
         iContent = findViewById(R.id.imageContent);
-        reciveIntent();
+        receiveIntent();
     }
 
-    private void reciveIntent() {
+    private void receiveIntent() {
         Intent i =getIntent();
         if ( i != null);
         {
