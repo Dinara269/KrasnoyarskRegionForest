@@ -95,7 +95,7 @@ public class Logo_Activity extends AppCompatActivity {
                     }).addOnFailureListener(new OnFailureListener() {
                         @Override
                         public void onFailure(@NonNull Exception e) {
-                            Snackbar.make(root, "Ошибка авторизации", Snackbar.LENGTH_SHORT).show();
+                            Snackbar.make(root, "Ошибка авторизации", Snackbar.LENGTH_LONG).show();
                         }
                     });
                 }
@@ -128,19 +128,19 @@ public class Logo_Activity extends AppCompatActivity {
             @Override
             public void onClick(DialogInterface dialogInterface, int which) {
                 if(TextUtils.isEmpty(email.getText().toString())) {
-                    Snackbar.make(root,"Введите вашу почту", Snackbar.LENGTH_SHORT).show();
+                    Snackbar.make(root,"Введите вашу почту", Snackbar.LENGTH_LONG).show();
                     return;
                 }
                 if(TextUtils.isEmpty(name.getText().toString())) {
-                    Snackbar.make(root,"Введите ваше имя", Snackbar.LENGTH_SHORT).show();
+                    Snackbar.make(root,"Введите ваше имя", Snackbar.LENGTH_LONG).show();
                     return;
                 }
                 if(TextUtils.isEmpty(phone.getText().toString())) {
-                    Snackbar.make(root,"Введите ваш телефон", Snackbar.LENGTH_SHORT).show();
+                    Snackbar.make(root,"Введите ваш телефон", Snackbar.LENGTH_LONG).show();
                     return;
                 }
                 if(pass.getText().toString().length() < 5) {
-                    Snackbar.make(root,"Введите пароль больше 5 символов", Snackbar.LENGTH_SHORT).show();
+                    Snackbar.make(root,"Введите пароль больше 5 символов", Snackbar.LENGTH_LONG).show();
                     return;
                 }
                 auth.createUserWithEmailAndPassword(email.getText().toString(), pass.getText().toString()).addOnSuccessListener(new OnSuccessListener<AuthResult>() {
@@ -155,10 +155,15 @@ public class Logo_Activity extends AppCompatActivity {
                         users.child(FirebaseAuth.getInstance().getCurrentUser().getUid()).setValue(user).addOnSuccessListener(new OnSuccessListener<Void>() {
                             @Override
                             public void onSuccess(Void aVoid) {
-                                Snackbar.make(root, "Пользователь добавлен",Snackbar.LENGTH_SHORT).show();
+                                Snackbar.make(root, "Пользователь добавлен",Snackbar.LENGTH_LONG).show();
                             }
                         });
 
+                    }
+                }).addOnFailureListener(new OnFailureListener() {
+                    @Override
+                    public void onFailure(@NonNull Exception e) {
+                        Snackbar.make(root, "Такой email уже существует", Snackbar.LENGTH_LONG).show();
                     }
                 });
             }

@@ -27,14 +27,45 @@
                 android:orientation="vertical"
                 android:rotationY="0">
 
+                <TextView
+                    android:id="@+id/Nazderevo1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:background="@color/colornazvanie"
+                    android:text="@string/Nazderevo1" />
+
+                <TextView
+                    android:id="@+id/Otdelderevo1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:background="@color/colorotdel"
+                    android:text="@string/Otdelderevo1" />
+
+
+                <TextView
+                    android:id="@+id/Nazseme1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:background="@color/colorseme"
+                    android:text="@string/Nazseme1" />
+
                 <ImageView
                     android:id="@+id/imageContent"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="bottom"
+                    android:background="#FFFFFF"
                     android:scaleX="2"
-                    android:src="@drawable/sosna"
-                    tools:visibility="visible" />
+                    android:src="@drawable/sosna" />
 
             </LinearLayout>
 
@@ -44,15 +75,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
                 android:layout_marginTop="10dp"
-                android:layout_marginRight="8dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
                 android:text="@string/derevo_1" />
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/ic_launcher_background"
-                android:orientation="vertical"></LinearLayout>
 
         </LinearLayout>
     </ScrollView>

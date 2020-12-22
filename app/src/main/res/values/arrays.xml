@@ -11,35 +11,97 @@
         <item>Ива</item>
         <item>Липы и вязы</item>
     </string-array>
+    <string-array name="derevo_naz_array">
+        <item>Сосна обыкновенная</item>
+        <item>Лиственница</item>
+        <item>Берёза</item>
+        <item>Клён</item>
+        <item>Ели и пихты</item>
+        <item>Тополь</item>
+        <item>Ива</item>
+        <item>Липы и вязы</item>
+    </string-array>
+    <string-array name="Otdelderevo_array">
+        <item>Отдел: Хвойные</item>
+        <item>Отдел: Хвойные</item>
+        <item>Отдел: Цветковые</item>
+        <item>Отдел: Цветковые</item>
+        <item>Отдел: Хвойные</item>
+        <item>Отдел: Цветковые</item>
+        <item>Отдел: Цветковые</item>
+        <item>Отдел: Цветковые</item>
+    </string-array>
+    <string-array name="Nazseme_array">
+        <item>Семейство: Сосновые</item>
+        <item>Семейство: Сосновые</item>
+        <item>Семейство: Березовые</item>
+        <item>Семейство: Сапиндовые</item>
+        <item>Семейство: Сосновые</item>
+        <item>Семейство: Ивовые</item>
+        <item>Семейство: Ивовые</item>
+        <item>Семейство: Мальвовые</item>
+    </string-array>
+
+
+
+
 
     <string-array name="rastenia_array">
         <item>Одуванчик</item>
         <item>Пижма</item>
-        <item>Полынь</item>
-        <item>Мать-и-мачеха</item>
-        <item>Ели и пихты</item>
-        <item>Лопух</item>
-        <item>Чертополох</item>
-        <item>Мецгерия вильчатая</item>
+    </string-array>
+    <string-array name="rastenia_Naz_array">
+        <item>Одуванчик</item>
+        <item>Пижма</item>
+    </string-array>
+    <string-array name="Otdelrasten_array">
+        <item>Отдел: Цветковые</item>
+        <item>Отдел: Цветковые</item>
+    </string-array>
+    <string-array name="Nazsemerast_array">
+        <item>Класс: Двудольные</item>
+        <item>Класс: Двудольные</item>
     </string-array>
 
+
+
+
+
     <string-array name="park_array">
+        <item>Ергаки </item>
+        <item>Большой Арктический заповедник</item>
+    </string-array>
+    <string-array name="park_Naz_array">
         <item>Ергаки</item>
         <item>Большой Арктический заповедник</item>
-        <item>Путоранский заповедник</item>
-        <item>Саяно-Шушенский заповедник</item>
-        <item>Таймырский заповедник</item>
-        <item>Тунгусский заповедник</item>
-        <item>Столбы</item>
     </string-array>
+    <string-array name="ploshad_array">
+        <item>Площадь: 342.873 га </item>
+        <item>Площадь: 4.169.222 га </item>
+    </string-array>
+    <string-array name="data_array">
+        <item>Дата основания: 4 апреля 2005 года  </item>
+        <item>Дата основания: 11 мая 1993 года  </item>
+    </string-array>
+
+
 
     <string-array name="uch_array">
         <item>Бегичев Никифор Алексеевич</item>
         <item>Биронт Виталий Семеновичк</item>
-        <item>Блуминау Александр Васильевич</item>
-        <item>Крутовский Всеволод Михайлович</item>
-        <item>Крыжин Иван Степанович</item>
-        <item>Кытманов Александр Игнатьевич</item>
     </string-array>
+    <string-array name="uch_Naz_array">
+        <item>Бегичев Никифор Алексеевич</item>
+        <item>Биронт Виталий Семенович</item>
+    </string-array>
+    <string-array name="dataroh_array">
+        <item> 19 февраля 1874 - 18 мая 1927 </item>
+        <item> 29 января 1937 - 	23 мая 2011 </item>
+    </string-array>
+    <string-array name="oblast_array">
+        <item> Русский моряк, полярный путешественник </item>
+        <item> Учёный-металловед и технолог металлов </item>
+    </string-array>
+
 
 </resources>

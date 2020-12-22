@@ -6,9 +6,11 @@
     <color name="White">#ffffff</color>
     <color name="Green">#27c93c</color>
     <color name="ripple_effect">#aa5353</color>
+    <color name="colorotdel">#71627e</color>
+    <color name="colornazvanie">#359c3d</color>
+    <color name="colorseme">#b9b1bf</color>
     <color name="btn_sign_in">#ed7171</color>
     <color name="btn_sign_in_stroke">#d66060</color>
-
     <color name="btn_register">#e27a5d</color>
     <color name="btn_register_stroke">#d16e53</color>
 </resources>
